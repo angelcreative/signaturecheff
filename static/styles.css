@@ -9,21 +9,10 @@
 body {
   /*
   background: linear-gradient(90deg, #fe7aab, #9a78e3, #b8e5c9, #78e7f1);*/
-	background: url(./static/img/bg.png) center center no-repeat;
+background: url(./static/img/bg.png) center center no-repeat;
 
   display: flex;
-  before {
-		content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  mask-image: linear-gradient(to bottom, transparent, black);
- 
-  }
-;
-  align-items: flex-start;
+ align-items: flex-start;
   justify-content: center;
   font-family: arial, sans-serif;
   font-size: 1rem;
