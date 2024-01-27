@@ -148,7 +148,31 @@ body > div {
 }
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
 
   
+   .formInputs {
+     
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    column-gap: 1rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
 }
+
+
+input {
+  width:100%;
+}
+
+
+  .colorGroups input {
+    padding: 4px;
+    height: 50px;
+    width: 80px;
+}
+  
+  }
+
