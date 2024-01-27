@@ -9,7 +9,7 @@
 body {
   /*
   background: linear-gradient(90deg, #fe7aab, #9a78e3, #b8e5c9, #78e7f1);*/
-	background: url(bg.png) center center no-repeat;
+	background: url(./static/img/bg.png) center center no-repeat;
 background-size:cover;
   display: flex;
   before {
@@ -20,7 +20,7 @@ background-size:cover;
   bottom: 0;
   right: 0;
   mask-image: linear-gradient(to bottom, transparent, black);
-  background: linear-gradient(90deg, hotpink, rebeccapurple);	
+ 
   }
 ;
   align-items: flex-start;
