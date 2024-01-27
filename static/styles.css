@@ -7,8 +7,10 @@
 
 
 body {
-      zoom: .97;
-  background: linear-gradient(90deg, #fe7aab, #9a78e3, #b8e5c9, #78e7f1);
+  /*
+  background: linear-gradient(90deg, #fe7aab, #9a78e3, #b8e5c9, #78e7f1);*/
+	background: url(bg.png) center center no-repeat;
+background-size:cover;
   display: flex;
   before {
 		content: "";
