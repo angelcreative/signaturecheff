@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Signature Cheff: Dynamic Email Signature Generator</title>
+    <!-- Add CSS for styling if necessary -->
+    <script type="text/javascript" src="../static/script.js"></script>
+    <link type="text/css" rel="stylesheet" href="../static/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+<section class="hand">
+    <img src="https://i.ibb.co/r6WtWhV/young-smiling-chef-holding-cloche.png" style="
+        position: absolute;
+    z-index: -9;
+    left: -460px;
+    max-width: 100%;">
+        <h1>Signature Cheff</h1>
+
+<!--<p>Welcome to SignatureCraft, the dynamic email signature generator! 
+</p>
+     <button class="button buttonGhost" id="toggleButton">Show/Hide Instructions</button>
+    
+    <div id="instructionText" class="drawer" style="display: none;">
+        <p>
+            This tool allows you to create personalized email signatures with ease. Simply fill in your details like name, position, email, and phone number. You can also add your company logo, personal avatar, and a banner for a customized touch. For social media links, just paste the URLs, and the appropriate icons will be added automatically. Customize the colors to match your style, and then hit "Generate Signature" to see your unique signature come to life. Once generated, you can copy the signature HTML to use in your email client.
+        </p>
+    </div>-->
+<section class="pen">
+    <form class="paper" id="signatureForm" onsubmit="generateSignature(); return false;">
+      
+        <div class="formInputs">
+            <!-- official -->
+            <div class="formGroup">
+        <label for="name">Name</label>
+        <input type="text" id="name"><br>
+        <label for="position">Position</label>
+        <input type="text" id="position"><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email"><br>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone"><br>
+
+        <label for="website">Website</label>
+        <input type="url" id="website"><br>
+      </div>
+            <!-- icon -->
+            <div class="formGroup">
+            <label for="social1">LinkedIn</label>
+        <input type="url" id="social1"><br>
+          <label for="social2">Facebook</label>
+        <input type="url" id="social2"><br>
+          <label for="social3">X</label>
+        <input type="url" id="social3"><br>
+        
+     
+
+<label for="underlineLinks">Underline Links</label>
+<input type="checkbox" id="underlineLinks"><br>
+            
+   <label for="bannerUrl">Banner URL</label>
+<input type="url" id="bannerUrl"><br></div>
+            <!-- color -->
+        <div  class="formGroup"> 
+         <div class="colorGroups"> 
+          <div>
+                 <label for="iconColor">Icon</label>
+        <input type="color" id="iconColor" value="#000000"><br>
+             </div>
+         <div>
+         <label for="nameColor">Name</label>
+        <input type="color" id="nameColor"><br>
+             </div>
+         <div>
+        <label for="bodyColor">Body</label>
+        <input type="color" id="bodyColor"><br>
+             </div>
+         <div>
+           <label for="linkColor">Link</label>
+<input type="color" id="linkColor"><br>
+</div>
+         </div>     
+
+       <!-- imgs -->
+         <div  class="formGroup">
+        <label for="avatar">Upload Avatar</label>
+        <input type="file" id="avatar" accept="image/*"><br>
+        
+
+        <label for="companyLogo">Upload Company Logo</label>
+        <input type="file" id="companyLogo" accept="image/*"><br>
+
+        <label for="banner">Upload Banner</label>
+        <input type="file" id="banner" accept="image/*"><br>
+         
+          </div>
+        </div>
+
+        </div>
+        
+               <input class="button" type="submit" value="Prepare my signature">
+
+    </form>
+
+    
+    
+    <div class="signature" id="signaturePreview">
+        <!-- Generated Signature will be displayed here -->
+    </div>
+
+
+    
+</section>    
+</section>  
+    
+
+    
+    
+    
+    <script type="text/javascript" src="../static/script.js"></script>
+    
+
+</body>
+</html>
+
+
