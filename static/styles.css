@@ -9,7 +9,7 @@
 body {
   /*
   background: linear-gradient(90deg, #fe7aab, #9a78e3, #b8e5c9, #78e7f1);*/
-background: url(./static/img/bg.png) center center no-repeat;
+background: url('./static/img/bg.png') center center no-repeat;
 
   display: flex;
  align-items: flex-start;
