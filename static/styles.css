@@ -117,13 +117,16 @@ input {
     align-items: flex-start;
 }
 
-h1 {
+ h1 {
     text-align: center;
     font-size: 36px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 0 auto;
     color: #bfbeb9;
+    background: url(https://raw.githubusercontent.com/angelcreative/signaturesnap/main/signaturesnap-logo.png) center center no-repeat;
+    height: 200px;
+    background-size: contain;
+    width: 310px;
 }
-
 .colorGroups input {
     padding: 0;
     height: 50px;
